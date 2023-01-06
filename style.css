@@ -17,7 +17,7 @@ body {
 
 #img-desktop {
     width: 50%;
-    border-radius: 8px 0px 0px 10px;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .product-infos {
@@ -145,4 +145,87 @@ button {
     gap: 10px;
     justify-content: center;
     color: white;
+}
+
+@media only screen and (max-width: 375px) {
+    .card {
+        position: absolute;
+        width: 343px;
+        height: 611px;
+        left: 16px;
+        top: 28px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    #img-desktop {
+        width: 343px;
+        height: 240px;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .product-infos {
+        margin-left: 24px;
+        margin-right:24px;
+    
+    }
+
+    .category {
+        margin-top: 24px;
+        margin-bottom: 0px;
+        left: 7%;
+        right: 66.18%;
+        top: calc(50% - 15px/2 - 34px);
+        width: 124px;
+        letter-spacing: 3px;
+        
+   
+    }
+
+    h1 {
+        height: 64px;
+        left: 7%;
+        right: 7%;
+        top: calc(50% - 64px/2 + 17.5px);
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .parfum-description {
+        margin-top: 16px;
+        margin-bottom: 0px;
+        height: 92px;
+        left: 7%;
+        right: 7%;
+        top: calc(50% - 92px/2 + 111.5px);
+    }
+
+    .price-sale {
+        margin-top: 24px;
+        margin-left: 0,5px;
+        margin-bottom: 0px;
+        height: 32px;
+        left: 7.14%;
+        right: 36.3%;
+        top: 79.71%;
+        bottom: 15.06%;
+    }
+
+    button {
+        margin-top: 30px;
+        width: 295px;
+        height: 48px;
+        left: 25px;
+        top: 539px;
+        background: #3D8168;
+        border-radius: 8px;
+        border: 0px;
+    }
+
+    #img-desktop {
+        align-self:flex-start;
+       
+    }
 }
