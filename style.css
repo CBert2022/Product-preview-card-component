@@ -1,0 +1,148 @@
+body {
+    background-color: #F2F2F2;
+    font-size: 14px;
+}
+
+.card {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 420px;
+    top: 175px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#img-desktop {
+    width: 50%;
+    border-radius: 8px 0px 0px 10px;
+}
+
+.product-infos {
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+
+.category {
+    margin-top: 32px;
+    margin-bottom: 0px;
+    height: 15px;
+    left: 55.25%;
+    right: 29.42%;
+    top: calc(50% - 15px/2 - 185.5px);
+
+    /* Display */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+}
+
+h1 {
+    height: 96px;
+    left: 55.33%;
+    right: 5.33%;
+    top: calc(50% - 96px/2 - 110px);
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    /* Display */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+}
+
+.parfum-description {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    height: 92px;
+    left: 55.25%;
+    right: 5.25%;
+    top: calc(50% - 92px/2 + 8px);
+
+    /* Display */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+.pricetag {
+    display: flex;
+    flex-direction: row;
+    gap: 19px
+}
+
+.price-sale {
+    margin-top: 29px;
+    margin-bottom: 0px;
+    height: 32px;
+    left: 55.33%;
+    right: 23.5%;
+    top: calc(50% - 32px/2 + 99px);
+
+    /* Display */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+
+.price-old {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    height: 23px;
+    left: 79.67%;
+    right: 12.33%;
+    top: calc(50% - 23px/2 + 99.5px);
+
+    /* Display */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+button {
+    margin-top: 30px;
+    width: 236px;
+    height: 48px;
+    left: 332px;
+    top: 370px;
+    background: #3D8168;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.inner-btn {
+    left: 65.83%;
+    right: 15.67%;
+    top: 85.56%;
+    bottom: 10.44%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+}
