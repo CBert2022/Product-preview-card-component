@@ -133,6 +133,7 @@ button {
     background: #3D8168;
     border-radius: 8px;
     border: 0px;
+    cursor: pointer;
 }
 
 .inner-btn {
@@ -146,6 +147,11 @@ button {
     justify-content: center;
     color: white;
 }
+
+button:hover {
+    background-color: #1C232B; 
+    color: white;
+  }
 
 @media only screen and (max-width: 375px) {
     .card {
@@ -169,7 +175,6 @@ button {
     .product-infos {
         margin-left: 24px;
         margin-right:24px;
-    
     }
 
     .category {
@@ -180,8 +185,6 @@ button {
         top: calc(50% - 15px/2 - 34px);
         width: 124px;
         letter-spacing: 3px;
-        
-   
     }
 
     h1 {
@@ -223,6 +226,7 @@ button {
         border-radius: 8px;
         border: 0px;
     }
+
 
     #img-desktop {
         align-self:flex-start;
