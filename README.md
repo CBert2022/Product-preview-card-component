@@ -22,7 +22,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/destop.png)
-![](./images/mobil.png)
 
 
 ### Links
