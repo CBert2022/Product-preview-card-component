@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://cbert2022.github.io/Product-preview-card-component/)
-- Live Site URL: [Add live site URL here](https://cbert2022.github.io/Product-preview-card-component/)
+- Live Site URL: https://cbert2022.github.io/Product-preview-card-component/
 
 ### Built with
 
