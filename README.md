@@ -7,9 +7,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
 
 
 ## Overview
@@ -32,8 +30,6 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://cbert2022.github.io/Product-preview-card-component/)
 - Live Site URL: [Add live site URL here](https://cbert2022.github.io/Product-preview-card-component/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -41,10 +37,5 @@ Users should be able to:
 - Flexbox
 
 
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 
