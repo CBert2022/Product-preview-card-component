@@ -200,9 +200,7 @@ button:hover {
     }
 
     .attribution {
-        position: absolute;
-        width: 350px;
-        left: 20px;
+        display: none;
         
     }
 }
